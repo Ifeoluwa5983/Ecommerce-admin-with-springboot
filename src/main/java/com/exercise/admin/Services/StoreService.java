@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public interface StoreService {
 	
-	public List <Store> findAll(int storeId);
+	public List <Store> findAll();
 	
 	public void deleteById(int storeId);
 	

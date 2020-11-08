@@ -17,7 +17,7 @@ public class StoreServiceImpl implements StoreService {
 	
 
 	@Override
-	public List<Store> findAll(int storeId) {
+	public List<Store> findAll() {
 	
 		return storeRepo.findAll();
 	}
